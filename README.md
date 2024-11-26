@@ -1,4 +1,3 @@
-Here's a complete **README.md** file written in **Markdown** format for your **RS Builder - Resume Builder** PHP project:
 
 # **RS Builder - Resume Builder Project**
 
