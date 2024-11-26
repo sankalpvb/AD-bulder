@@ -1,6 +1,5 @@
 Here's a complete **README.md** file written in **Markdown** format for your **RS Builder - Resume Builder** PHP project:
 
-```markdown
 # **RS Builder - Resume Builder Project**
 
 ## **Description**
@@ -42,9 +41,9 @@ RS Builder is a user-friendly and efficient web application for building profess
 1. **Clone the Repository**:
 
    Clone the repository using the following command:
-   ```bash
+
    git clone https://github.com/your-username/rs-builder.git
-   ```
+  
 
 2. **Download the Project ZIP**:
 
@@ -65,17 +64,17 @@ RS Builder is a user-friendly and efficient web application for building profess
      - Click **Go** to import the database.
 
    - Using **MySQL Command Line**:
-     ```bash
+     
      mysql -u root -p
      CREATE DATABASE resume_builder;
      USE resume_builder;
      SOURCE /path/to/your/resume_builder.sql;
-     ```
+  
 
 2. **Configure Database Connection**:
 
    Open the `config.php` file and update the database connection details:
-   ```php
+
    define('DB_HOST', 'localhost'); // Database host
    define('DB_USER', 'your-username'); // Database username
    define('DB_PASSWORD', 'your-password'); // Database password
@@ -99,9 +98,9 @@ RS Builder is a user-friendly and efficient web application for building profess
    - For **MAMP**, start the servers via the MAMP interface.
 
 2. Open your browser and visit the following URL:
-   ```
+
    http://localhost/rs-builder
-   ```
+
 
    This will open the **RS Builder** homepage where you can start creating your resumes.
 
@@ -136,7 +135,7 @@ For any questions or feedback, feel free to reach out to [your-email@example.com
 - **XAMPP/WAMP/MAMP**: For local server setup.
 - **Bootstrap**: For responsive design and user interface components.
 - **FontAwesome**: For social media icons.
-```
+
 
 ### **Markdown Syntax Highlights**:
 - `#` for main headers.
